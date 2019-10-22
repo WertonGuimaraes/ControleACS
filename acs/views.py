@@ -1,6 +1,7 @@
 from rest_framework import viewsets
-from serializers import AcsSerializer
-from models import Acs
+
+from acs.models import Acs
+from acs.serializers import AcsSerializer
 
 
 class AcsViewSet(viewsets.ModelViewSet):

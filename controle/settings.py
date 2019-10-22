@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
 PROJECT_APPS = (
     'acs',
+    'pessoa',
 )
 
 INSTALLED_APPS += PROJECT_APPS

@@ -1,10 +1,10 @@
 from django.conf.urls import url, include
 from rest_framework.routers import DefaultRouter
 
-from acs.views import AcsViewSet
+from pessoa.views import PessoaViewSet
 
 router = DefaultRouter()
-router.register(r'', AcsViewSet)
+router.register(r'', PessoaViewSet)
 
 
 urlpatterns = [
